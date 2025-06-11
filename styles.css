@@ -1,0 +1,81 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background: #e8f5e9;
+  margin: 0;
+  padding: 0;
+  color: #2e7d32;
+}
+
+/* Cabeçalho */
+header {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Imagem */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Navegação com menus */
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Cada menu */
+.menu {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  flex: 1;
+  transition: background 0.3s;
+  user-select: none;
+}
+
+/* Efeito hover no menu */
+.menu:hover {
+  background: #a5d6a7;
+}
+
+/* Título dentro do menu */
+.menu h3 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+/* Lista de frases inicialmente escondida */
+.phrases {
+  display: none;
+  list-style: none;
+  padding-left: 1rem;
+  color: #33691e;
+}
+
+/* Espaçamento entre frases */
+.phrases li {
+  margin-bottom: 0.5rem;
+}
